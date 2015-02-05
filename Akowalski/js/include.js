@@ -2,5 +2,5 @@
 /*global $, jQuery, alert*/
 $(function () {
     'use strict';
-    $("#include").load("Import/include.html"):
+    $("#include").load("import/include.htm");
 });
