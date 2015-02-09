@@ -140,20 +140,6 @@ strong em {
     filter: alpha(opacity=90);
 }
 
-#logo {
-    display: block;
-    position: absolute;
-    width: 186px;
-    height: 32px;
-    background: url(../img/logo.gif) no-repeat 0 0;
-    left: 50%;
-    margin: 0 0 0 -280px;
-    top: 15px;
-    overflow: hidden;
-    text-indent: 999em;
-    line-height: 999em;
-}
-
 #content {
     position: relative;
     display: block;
