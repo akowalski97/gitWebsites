@@ -118,6 +118,10 @@ strong {
     font-weight: bold;
 }
 
+dt {
+    font-weight: bold
+}
+
 em strong,
 strong em {
     font-weight: bold;
