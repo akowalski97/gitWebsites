@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <base> href= "."
+    <base>
     <title>My Raw HTML Website</title>
     <meta charset="UTF-8">
     <meta name="description" content="Free Web tutorials">
@@ -12,7 +12,13 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />
     <script src="js/jquery.js"></script>
     <script src="js/include.js"></script>
+    <script src="js/processing.js"></script>
+    <script type="text/javascript">
+        function getProcessingSketchId() {
+            return "circles_2"
 
+        }
+    </script>
 </head>
 
 <body>
@@ -27,8 +33,7 @@
         </div>
 
     </div>
-
-
+    <canvas id="circles_2" data-processing-sources="pde/circles_2/circles_2.pde" width="700" height="700" center center></canvas>
 </body>
 
 </html>
