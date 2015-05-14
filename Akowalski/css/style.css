@@ -280,7 +280,7 @@ strong em {
 #subMenusContainer ol {
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: horizontal;
     line-height: 1em;
 }
 /* All submenu OLs and ULs */
@@ -303,7 +303,7 @@ strong em {
     /*great place to use a background image as a divider*/
     
     display: block;
-    list-style: none;
+    list-style: vertical;
     position: relative;
     float: left;
 }
@@ -320,7 +320,7 @@ strong em {
     margin: 0 0 0 0;
     z-index: 1000;
     top: 15px;
-    left: 50%;
+    left: 0%;
     text-align: center;
     display: block;
 }
@@ -332,7 +332,7 @@ strong em {
     left: 0;
     width: 100%;
     height: 0;
-    overflow: visible;
+    overflow: hidden;
     z-index: 1000000000;
 }
 /* --------------------------[ The below is just for non-javscript users ]--------------------------*/
