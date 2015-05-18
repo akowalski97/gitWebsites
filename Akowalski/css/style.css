@@ -209,6 +209,7 @@ strong em {
 #nav a {
     margin: 0;
     float: left;
+    list-style: horizontal;
 }
 /* Just sub menu links */
 
@@ -264,7 +265,7 @@ strong em {
 .smOW {
     display: none;
     position: absolute;
-    overflow: hidden;
+    overflow: visible;
     /*the 2px left & right padding lets you have a 1px border 
 	  on the ul or ol inside since overflow is set to hidden*/
     
@@ -303,20 +304,20 @@ strong em {
     /*great place to use a background image as a divider*/
     
     display: block;
-    list-style: vertical;
+    list-style: horizontal;
     position: relative;
     float: left;
 }
 
 #subMenusContainer li {
-    list-style: none;
+    list-style: vertical;
 }
 /* main menu ul or ol elment */
 
 #nav {
     display: block;
     position: absolute;
-    list-style: none;
+    list-style: vertical;
     margin: 0 0 0 0;
     z-index: 1000;
     top: 15px;
@@ -332,7 +333,7 @@ strong em {
     left: 0;
     width: 100%;
     height: 0;
-    overflow: hidden;
+    overflow: visible;
     z-index: 1000000000;
 }
 /* --------------------------[ The below is just for non-javscript users ]--------------------------*/
