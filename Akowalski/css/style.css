@@ -209,7 +209,7 @@ strong em {
 #nav a {
     margin: 0;
     float: left;
-    list-style: horizontal;
+    list-style: vertical;
 }
 /* Just sub menu links */
 
@@ -281,7 +281,7 @@ strong em {
 #subMenusContainer ol {
     padding: 0;
     margin: 0;
-    list-style: horizontal;
+    list-style: vertical;
     line-height: 1em;
 }
 /* All submenu OLs and ULs */
@@ -304,7 +304,7 @@ strong em {
     /*great place to use a background image as a divider*/
     
     display: block;
-    list-style: horizontal;
+    list-style: vertical;
     position: relative;
     float: left;
 }
